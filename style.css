@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("imagens/fundo4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+ul {
+  margin-top: 100px;
+  color: white;
+  display: flex;
+  padding: center;
+  justify-content: center;
+  list-style-type: none;
+  cursor: pointer;
+  font-family: "Bungee Hairline", cursive;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  font-size: 30px;
+  align-items: center;
+}
+
+.nome {
+  color: white;
+  text-align: center;
+  font-size: 80px;
+  font-family: "Bungee Hairline", cursive;
+  margin-top: -30px;
+}
+
+h2 {
+  font-family: "Bungee Hairline", cursive;
+  text-align: center;
+  margin-top: -27px;
+  font-size: 25px;
+  color: white;
+}
+
+.bts {
+  display: flex;
+  justify-content: space-between;
+}
+
+.b1 {
+  justify-content: center;
+  background: none;
+  border: none;
+}
+
+.img_b {
+  width: 40px;
+  height: 40px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.a1:hover {
+  color: orange;
+}
+
+button {
+  text-align: center;
+}
+
+/*/ -------------------  Início Sobre -------------------  /*/
+
+.fd {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 22%;
+  width: 400px;
+  height: 400px;
+  background-color: white;
+}
+
+.fd2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 49%;
+  margin-top: -400px;
+  width: 400px;
+  height: 400px;
+  background-color: white;
+}
+
+.fd,
+.fd2 {
+  background-color: rgba(255, 255, 255, 0.603);
+  font-family: "Bungee Hairline", cursive;
+  color: #012615;
+  font-family: "Bungee Hairline", cursive;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Titillium Web", sans-serif;
+}
+
+.txt2 {
+  font-size: 20px;
+  color: #012615;
+  text-align: center;
+}
+
+/* -------------------  Final Sobre -------------------  */
+
+/* ------------------- Início Contatos ------------------- */
+
+.bsocial {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: -140px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 30vw;
+  height: 60vh;
+  margin-left: 560px;
+  background-color: #01402365;
+}
+
+form {
+  width: 28vw;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.849);
+}
+
+input {
+  display: flex;
+  justify-content: center;
+  margin: 0 0rem 0;
+  padding: 0.8rem 1.2rem;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 1px 1px 6px #0000001c;
+}
+
+input,
+textarea {
+  background: rgb(247, 223, 178);
+  border: none;
+}
+
+label {
+  justify-content: left;
+  text-align: left;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.1rem;
+}
+
+.bt {
+  background: #FFFF;
+  width: 20%;
+  margin-top: rem;
+  border: none;
+  padding: 0.62rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.bt:hover {
+  background-color: orange;
+}
